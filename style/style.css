@@ -26,10 +26,18 @@ a {
     gap: 10px;
     color: #FFFFFF;
     text-transform: uppercase;
+    border: 0;
 }
 
 li {
     list-style: none;
+}
+
+.p-primary {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* Common CSS end */
@@ -116,3 +124,42 @@ li {
 /* Banner CSS end */
 
 /* Header section end */
+
+/* Main Section start */
+
+/* Gammer section start */
+.gammer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 200px;
+    gap: 10px;
+}
+.gammer-image{
+    width: 100rem;
+}
+
+.gammer-image>img {
+    width: 100%;
+    height: ;
+}
+
+.gammer-content {
+    text-align: right;
+}
+
+.gammer-content>h3 {
+    font-size: 2.9rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.gammer-content>p {
+    margin-bottom: 20px;
+}
+.btn1{
+    
+}
+/* Gammer section end */
+
+/* Main Section end */
