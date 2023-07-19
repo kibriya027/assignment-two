@@ -1,12 +1,18 @@
 
 @media only screen and (max-width: 576px) {
-    .nav, .nav-menu > ul, .banner{
+    .nav, .nav-menu > ul, .banner, .gammer{
         flex-direction: column;
     }
-    .nav, .banner, .banner-one{
+    .nav, .banner, .banner-one, .gammer{
         margin: 10px 0px 10px 20px;
         padding: 0;
         gap: 0px;
+    }
+    .gammer-image{
+        width:23rem;
+    }
+    .gammer-content{
+        text-align: center;
     }
   }
 
