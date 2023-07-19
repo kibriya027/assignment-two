@@ -219,6 +219,37 @@ ul {
 
 /* Videos secton start */
 
+.videos{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px;
+    gap: 50px;
+  }
+.container {
+position: relative;
+}
+
+.image{
+width: 200px;
+height: 300px;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+}
+
+.container:hover .overlay {
+opacity: 1;
+border-radius: 10px solid #FF42A5;
+}
 
 /* Videos secton end */
 
@@ -411,7 +442,7 @@ footer {
 }
 
 .footer-icon a {
-    margin: 0px 10px;
+    margin: 0px 30px;
     color: white;
     font-size: 2rem;
 }
