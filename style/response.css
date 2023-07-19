@@ -1,9 +1,9 @@
 
 @media only screen and (max-width: 576px) {
-    .nav, .nav-menu > ul, .banner, .gammer, .play{
+    .nav, .nav-menu > ul, .banner, .gammer, .play, .col-1, .col-2{
         flex-direction: column;
     }
-    .nav, .banner, .banner-one, .gammer, .play, .button,{
+    .nav, .banner, .banner-one, .gammer, .play, .button{
         margin: 10px 10px;
         padding: 0;
     }
@@ -17,13 +17,14 @@
         margin-top: 10px;
         margin-left: 60px;
     }
-    .button{
-        grid-template-rows: 3fr;
+    .gammer-image>img{
+        width: 104%;
     }
     footer{
-        padding: 50px;
+        padding: 20px 30px;
+        margin: 0;
     }
-}
+  }
 
 
 
