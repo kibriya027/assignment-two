@@ -40,6 +40,12 @@ li {
     line-height: 30px;
 }
 
+img {
+    width: 100%;
+}
+ul{
+    display: flex;
+}
 /* Common CSS end */
 
 /* Header section start */
@@ -135,7 +141,8 @@ li {
     margin: 30px 200px;
     gap: 10px;
 }
-.gammer-image{
+
+.gammer-image {
     width: 100rem;
 }
 
@@ -157,9 +164,206 @@ li {
 .gammer-content>p {
     margin-bottom: 20px;
 }
-.btn1{
-    
-}
+
+.btn1 {}
+
 /* Gammer section end */
 
+/* Game section start */
+.games {
+    text-align: center;
+}
+
+.games>h3 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Game section end */
+
+
+/* Videos secton start */
+
+
+/* Videos secton end */
+
+/* Play section CSS Start */
+.play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px 50px 300px;
+    gap: 6rem;
+    /* margin: 50px 200px; */
+
+}
+
+.play-content {
+    /* padding: 100px 50px; */
+    text-align: right;
+}
+
+.play-content>h3 {
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-image {
+    margin-top: 40px;
+}
+.image1{
+    /* width: 600px; */
+    position: relative;
+    top: 5rem;
+}
+
+.image2 {
+    position: relative;
+    bottom: 3rem;
+    right: 4rem;
+}
+
+.image2>img {
+    width: 150px;
+}
+
+/* Play section CSS end */
+
+/* Button Section Start */
+.button{
+    margin: 50px 200px;
+}
+.col-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.col-1 > button{
+    background: #FFF;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 50px;
+
+
+}
+.col-1 > button:hover a {
+    border: 1px solid rgba(255, 66, 165, 1);
+    color:  rgba(255, 66, 165, 1);
+    border-radius: 50px;
+    /* padding: 10px 15px; */
+    /* font-size: .7rem; */
+
+
+}
+.col-1 > button > a{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+
+a > img{
+    /* height: 10px; */
+    width: 20%;
+}
+button > a{
+    font-size: .7rem;
+    color: #0B0223;
+    /* font-weight: 600; */
+
+}
+/* Button Section End */
+
 /* Main Section end */
+
+
+/* Footer section start */
+footer{
+
+    text-align: center;
+    background: #0B0223;
+    padding: 100px;
+}
+
+/* Footer name css */
+.footer-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap 10px
+}
+.footer-name > img{
+    width: 90px;
+    height: 40px;
+}
+.footer-name h4{
+    color: #FFF;
+font-size: 2.9rem;
+font-weight: 700;
+margin-left: 10px;
+
+}
+.footer-name > h4 > span{
+ color: #FF42A5;
+}
+/* Footer Name Section CSS */
+
+.footer-menu{
+    margin: 20px 0px;
+}
+.footer-menu a{
+    margin: 0px 20px;
+    color: white;
+    font-size: .9rem;
+}
+
+/* Footer icon CSS */
+
+.footer-icon{
+    margin: 20px 0px;
+}
+.footer-icon a{
+    margin: 0px 10px;
+    color: white;
+    font-size: 2rem;
+}
+
+/* footer services CSS */
+.footer-services{
+    margin: 20px 0px;
+}
+.footer-services a{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    margin: 0px 15px;
+    font-size: .9rem;
+}
+
+/* footer end CSS */
+.footer-end{
+    margin: 20px 0px;
+}
+.footer-end p{
+    color: rgba(255, 255, 255, 1);
+    font-size: .9rem;
+}
+
+/* Footer section end */
