@@ -275,6 +275,7 @@ ul {
 
 /* Button Section Start */
 .button {
+    display: grid;
     margin: 50px 200px;
 }
 
@@ -399,7 +400,7 @@ footer {
 }
 
 .footer-menu a {
-    margin: 0px 20px;
+    margin: 0px 14px;
     color: white;
     font-size: .9rem;
 }
@@ -411,7 +412,7 @@ footer {
 }
 
 .footer-icon a {
-    margin: 0px 10px;
+    margin: 0px 31px;
     color: white;
     font-size: 2rem;
 }
@@ -424,13 +425,13 @@ footer {
 .footer-services a {
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
-    margin: 0px 15px;
+    margin: 0px 13px;
     font-size: .9rem;
 }
 
 /* footer end CSS */
 .footer-end {
-    margin: 20px 0px;
+    margin: 20px 54px;
 }
 
 .footer-end p {
