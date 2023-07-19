@@ -36,6 +36,39 @@
 
 
 
-@media screen and (min-width:5765px) and (max-width:768px) {
-
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .container{
+        margin-left: 15rem;
+    }
+    .nav, .nav-menu > ul, .banner, .gammer, .play, .col-1, .col-2, .videos{
+        flex-direction: column;
+    }
+    .nav, .banner, .banner-one, .gammer, .play, .button, .videos{
+        margin: 10px 10px;
+        padding: 0;
+    }
+    .gammer-image{
+        width:44rem;
+    }
+    .gammer-content, .play-content, .banner-one{
+        text-align: center;
+    }
+    .play-image{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    .gammer-image>img{
+        width: 100%;
+    }
+    footer{
+        padding: 20px 30px;
+        margin: 0;
+    }
+    .nav-title{
+        margin-left: 219px;
+    }
+    .button img{
+        height: 30px;
+        width: 30px;
+    }
 }
