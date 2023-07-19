@@ -1,13 +1,14 @@
-/* @media screen and (max-width:5765px) {
-    .nav, ul {
-        flex-direction: column;
-        justify-content: center;
-    }
-    .nav, ul{
-        margin: 0;
-    }
 
-} */
+@media only screen and (max-width: 576px) {
+    .nav, .nav-menu > ul, .banner{
+        flex-direction: column;
+    }
+    .nav, .banner, .banner-one{
+        margin: 10px 0px 10px 20px;
+        padding: 0;
+        gap: 0px;
+    }
+  }
 
 
 
